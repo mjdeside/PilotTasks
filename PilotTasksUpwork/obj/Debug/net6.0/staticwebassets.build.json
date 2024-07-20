@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "fpqD+YYWZyuflrE8REFwS46K+Wg+yKpNx4f6VvXbt8A=",
+  "Source": "PilotTasksUpwork",
+  "BasePath": "_content/PilotTasksUpwork",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PilotTasksUpwork\\wwwroot",
+      "Source": "PilotTasksUpwork",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\PilotTasksUpwork\\PilotTasksUpwork\\wwwroot\\",
+      "BasePath": "_content/PilotTasksUpwork",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\PilotTasksUpwork\\PilotTasksUpwork\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PilotTasksUpwork.styles.css",
+      "SourceId": "PilotTasksUpwork",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\PilotTasksUpwork\\PilotTasksUpwork\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/PilotTasksUpwork",
+      "RelativePath": "PilotTasksUpwork.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\PilotTasksUpwork\\PilotTasksUpwork\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PilotTasksUpwork.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\PilotTasksUpwork\\PilotTasksUpwork\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PilotTasksUpwork.bundle.scp.css",
+      "SourceId": "PilotTasksUpwork",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\PilotTasksUpwork\\PilotTasksUpwork\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/PilotTasksUpwork",
+      "RelativePath": "PilotTasksUpwork.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\PilotTasksUpwork\\PilotTasksUpwork\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PilotTasksUpwork.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\PilotTasksUpwork\\PilotTasksUpwork\\wwwroot\\favicon.ico",
+      "SourceId": "PilotTasksUpwork",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\PilotTasksUpwork\\PilotTasksUpwork\\wwwroot\\",
+      "BasePath": "_content/PilotTasksUpwork",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

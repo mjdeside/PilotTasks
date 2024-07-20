@@ -1,0 +1,44 @@
+﻿@model IEnumerable<PilotTasksUpworkService.Model.TasksView>
+
+@{
+
+}
+
+
+<h3>Tasks List</h3>
+
+
+<div class="my-2">
+    <a href="NewTask" class="btn btn-info my-2">New Tasks</a>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Task Assignee</th>
+                <th>Task Name</th>
+                <th>Task Description</th>
+                <th>Start Time</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in Model)
+            {
+                <tr>
+                    <td>@t.TasksAssignee</td>
+                    <td>@t.TaskName</td>
+                    <td>@t.TaskDescription</td>
+                    <td>@t.StartTimeDisplay</td>
+                    <td>@t.StatusDisplay</td>
+                    <td>
+                        <a class="btn btn-primary" href="Edit/@t.Id">Edit</a>
+                        <a class="btn btn-warning" href="Delete/@t.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+</div>

@@ -1,0 +1,45 @@
+﻿
+
+@model IEnumerable<PilotTasksUpworkService.Model.Profile>
+
+    @{
+      
+    }
+
+
+    <h3>Profile List</h3>
+
+
+    <div class="my-2">
+        <a href="NewProfile" class="btn btn-info my-2">New Profile</a>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Date Of Birth</th>
+                <th>Email Id</th>
+                <th>Action</th>
+               </tr>
+            </thead>
+            <tbody>
+            @foreach(var prof in Model)
+            {
+                <tr>
+                    <td>@prof.FirstName</td>
+                    <td>@prof.LastName</td>
+                    <td>@prof.DateOfBirth.Value.ToShortDateString()</td>
+                    <td>@prof.EmailId</td>
+                    <td>
+                        <a class="btn btn-primary" href="/Tasks/TasksByProfileId/@prof.ProfileId">ViewTask</a>
+                        <a class="btn btn-success" href="Edit/@prof.ProfileId">Edit</a>
+                        <a class="btn btn-warning" href="Delete/@prof.ProfileId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        </table>
+
+
+
+    </div>
